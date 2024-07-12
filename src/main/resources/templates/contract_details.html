@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contract Details</title>
+</head>
+<body>
+<h1>Contract Details</h1>
+<table border="1">
+    <thead>
+    <tr>
+        <th>Contract Code</th>
+        <th>Contract Name</th>
+        <th>Customer</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td th:text="${contract.contractCode}"></td>
+        <td th:text="${contract.contractName}"></td>
+        <td th:text="${contract.customer}"></td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
